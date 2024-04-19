@@ -1,0 +1,309 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    background-color: #7C1F22;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#menu li{
+    display: inline;
+    margin: 0px 30px;
+    padding: 10px 0px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#menu a:hover{
+    background-color: aliceblue;
+    color: #7C1F22;
+}
+h1{
+    font-family: "Rubik Mono One", monospace;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 9px 10px 2px rgba(230, 66, 66, 0.6);
+}
+main p{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+img{
+    width: 75%;
+}
+video{
+    width: 100%;
+}
+section{
+    display: flex;
+    justify-content: stretch;
+}
+#derecha, #izquierda{
+    width: 45%;
+    padding: 25px;
+    text-align: center;
+    float: left;
+    
+}
+#izquierda{
+    padding-top: 70px;
+}
+footer{
+    width: 100%;
+    clear: both;
+    background-color: #7C1F22;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+footer p{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+
+}
+nav img{
+    width: 60px;
+    margin: 0;
+    padding: 0;
+}
+#galeria{
+    background-image: url(../imagenes/BackgroundSuperman.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding: 0px 30px;
+}
+#galeria h1{
+    color: white;
+    font-size: 80px;
+
+}
+
+#galeria div{
+    width: 500px;
+    padding-top: 200px;
+}
+#section2{
+    width: 100%;
+    background-color: #7C1F22;
+    padding: 50px 0px;
+}
+#seccion3{
+    background-color: rgb(243, 113, 113);
+    text-align: center;
+    width: 100%;
+}
+#audio{
+    width: 30%;
+    margin: auto;
+    background-color:#DE6767;
+    padding: 20px;
+    border: 3px solid #ceb063;
+    border-radius: 10px;
+    color: #7C1F22;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#seccion3{
+    flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+#seccion3 div{
+    width: 30%;
+    height: 400px;
+    margin: 15px;
+    background-color: rgba(252, 252, 252, 0);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    border: 3px solid #ceb063;
+    border-radius: 10px;
+
+}
+#seccion3 div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#seccion3 div img:hover{
+    background-color: rgb(245, 162, 162);
+    transform: 3s;
+    scale: 2px;
+}
+#reparto{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    background-image: url(../imagenes/favicon.webp);
+    background-color: #c57071;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+#reparto h1{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    color: white;
+}
+#sectionreparto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#sectionreparto div{
+    background-color: #DE6767;
+    background-size: contain;
+    width:30%;
+    height: auto;
+    margin: 15px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#sectionreparto div img{
+    width: 100%;
+    object-fit: content;
+    border-radius: 20px;
+    transition: transform 0.2s ease;
+}
+#sectionreparto div p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sectionreparto h2{
+    width: max-content;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    color: #421213;
+}
+#sectionreparto h2:hover{
+    color:rgb(241, 241, 241);
+    text-shadow: 1px -1px 36px rgba(197,152,57,1);
+}
+
+#sectionreparto div img:hover{
+    transform: scale(1.1);
+}
+
+#argumento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c57071;
+}
+#argumento img{
+    width:300px;
+    box-shadow: 0px 0px 30px 11px rgba(231,166,26,1);
+    margin-top: 40px;
+    
+}
+
+#argumento h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 10;
+    font-family: "Platypi", serif;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #421213;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#argumento pre{
+    max-width: 1200px;
+    line-height: 38px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    background-color: #c57071;
+    color: white;
+    
+}
+#trailer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c57071;
+}
+#trailer h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Platypi", serif;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #421213;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#videotrailer img{
+    width: 200px;
+}
+#videotrailer{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c57071;
+}
+
+#videotrailer video{
+    width: 560px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 11px rgba(231,166,26,1);
+    background-color: trans;
+}
+
+
